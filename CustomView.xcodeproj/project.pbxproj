@@ -18,6 +18,7 @@
 		3AB3F78F174B06E500306088 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3F78E174B06E500306088 /* Default-568h@2x.png */; };
 		3AB3F792174B06E500306088 /* ZYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3F791174B06E500306088 /* ZYViewController.m */; };
 		3AB3F795174B06E500306088 /* ZYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3F793174B06E500306088 /* ZYViewController.xib */; };
+		3AB3F79C174B0E7D00306088 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB3F79B174B0E7D00306088 /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		3AB3F790174B06E500306088 /* ZYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYViewController.h; sourceTree = "<group>"; };
 		3AB3F791174B06E500306088 /* ZYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYViewController.m; sourceTree = "<group>"; };
 		3AB3F794174B06E500306088 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZYViewController.xib; sourceTree = "<group>"; };
+		3AB3F79B174B0E7D00306088 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				3AB3F791174B06E500306088 /* ZYViewController.m */,
 				3AB3F793174B06E500306088 /* ZYViewController.xib */,
 				3AB3F77F174B06E400306088 /* Supporting Files */,
+				3AB3F79B174B0E7D00306088 /* CustomView.xib */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				3AB3F78D174B06E500306088 /* Default@2x.png in Resources */,
 				3AB3F78F174B06E500306088 /* Default-568h@2x.png in Resources */,
 				3AB3F795174B06E500306088 /* ZYViewController.xib in Resources */,
+				3AB3F79C174B0E7D00306088 /* CustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

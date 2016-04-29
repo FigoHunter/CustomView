@@ -17,7 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    NSArray *nib = [[NSBundle mainBundle]loadNibNamed:@"CustomView" owner:self options:nil];
+    UIView *tmpCustomView = [nib objectAtIndex:0];
+    
+    CGRect tmpFrame = [[UIScreen mainScreen] bounds];
+    [tmpCustomView setCenter:CGPointMake(tmpFrame.size.width / 2, tmpFrame.size.height / 2)];
+    
+    [self.view addSubview:tmpCustomView];
+    
 }
 
 - (void)didReceiveMemoryWarning
